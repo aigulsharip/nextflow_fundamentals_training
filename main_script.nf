@@ -5,7 +5,16 @@ params.transcriptome_file = "$projectDir/data/ggal/transcriptome.fa"
 params.multiqc = "$projectDir/multiqc"
 params.results = "results"
 
-println "reads: $params.reads"
+log.info """\
+    R N A S E Q - N F   P I P E L I N E
+    ===================================
+    transcriptome: ${params.transcriptome_file}
+    reads        : ${params.reads}
+    outdir       : ${params.outdir}
+    """
+    .stripIndent(true)
+
+
 
 
 process INDEX {
@@ -22,5 +31,7 @@ process INDEX {
 }
 
 workflow {
+Channel.fromFilePairs(params.reads, checkIfExists:true)
+        .set{read_pairs_ch}
     index_ch = INDEX(params.transcriptome_file)
 }

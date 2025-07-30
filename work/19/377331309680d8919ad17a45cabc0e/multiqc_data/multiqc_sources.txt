@@ -1,0 +1,2 @@
+Module	Section	Sample Name	Source
+Salmon	all_sections	lung	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/19/377331309680d8919ad17a45cabc0e/lung/libParams/flenDist.txt

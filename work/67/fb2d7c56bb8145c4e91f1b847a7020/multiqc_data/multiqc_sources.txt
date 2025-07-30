@@ -1,0 +1,10 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	liver_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_liver_logs/liver_2_fastqc.zip
+FastQC	all_sections	lung_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_lung_logs/lung_2_fastqc.zip
+FastQC	all_sections	lung_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_lung_logs/lung_1_fastqc.zip
+FastQC	all_sections	liver_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_liver_logs/liver_1_fastqc.zip
+FastQC	all_sections	gut_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_gut_logs/gut_1_fastqc.zip
+FastQC	all_sections	gut_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/fastqc_gut_logs/gut_2_fastqc.zip
+Salmon	all_sections	lung	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/lung/libParams/flenDist.txt
+Salmon	all_sections	liver	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/liver/libParams/flenDist.txt
+Salmon	all_sections	gut	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/67/fb2d7c56bb8145c4e91f1b847a7020/gut/libParams/flenDist.txt
