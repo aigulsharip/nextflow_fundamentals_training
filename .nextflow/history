@@ -49,3 +49,7 @@
 2025-07-30 13:21:09	1.7s	gloomy_cuvier	OK	91b7481de5245909fad525742c2f128d	b69db197-90f5-4d78-8dba-1ac5e49e10d2	nextflow run hello.nf
 2025-07-30 13:21:51	491ms	shrivelled_almeida	OK	868efa818a7777f9ad7e027845c377af	d3d06dc5-12a9-49f7-bb7b-00d881ba17ce	nextflow run script1.nf
 2025-07-30 13:23:51	540ms	extravagant_lalande	OK	c8acf84d5c8b703a2701f47e9f88c417	b46e775c-44fb-4c23-90ae-745679cfd6d0	nextflow run script1.nf
+2025-07-30 13:43:59	582ms	evil_cantor	OK	6f7030be2751ee04def66288ebec5da7	e5f89a87-4620-42ea-a6b1-57456d693264	nextflow run script1.nf
+2025-07-30 13:44:08	1.5s	sleepy_stonebraker	ERR	a1296adfa15ac680ceb7c20d5ae02933	4013128c-ef59-4be9-97b0-6308c2226119	nextflow run script2.nf
+2025-07-30 13:44:51	1.9s	goofy_archimedes	ERR	a1296adfa15ac680ceb7c20d5ae02933	01e76763-bd14-425d-97cb-31bfbe48752a	nextflow run script2.nf --with-docker
+2025-07-30 13:53:48	11m 49s	crazy_colden	ERR	a1296adfa15ac680ceb7c20d5ae02933	524628ba-ebcd-4c31-af52-2d151db52c3f	nextflow run script2.nf -with-docker
