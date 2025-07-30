@@ -1,73 +1,133 @@
-Jul-30 13:21:08.371 [main] DEBUG nextflow.cli.Launcher - $> nextflow run hello.nf
-Jul-30 13:21:08.553 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.6
-Jul-30 13:21:08.584 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/aigul_sharip/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.1,nf-k8s@1.0.0,nf-tower@1.11.4,nf-wave@1.12.1
-Jul-30 13:21:08.616 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Jul-30 13:21:08.618 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Jul-30 13:21:08.622 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
-Jul-30 13:21:08.638 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Jul-30 13:21:08.672 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/nextflow.config
-Jul-30 13:21:08.677 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/nextflow.config
-Jul-30 13:21:08.732 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/aigul_sharip/.nextflow/secrets/store.json
-Jul-30 13:21:08.738 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4e558728] - activable => nextflow.secret.LocalSecretsProvider@4e558728
-Jul-30 13:21:08.748 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Jul-30 13:21:09.248 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
-Jul-30 13:21:09.268 [main] DEBUG nextflow.cli.CmdRun - Launching `hello.nf` [gloomy_cuvier] DSL2 - revision: 91b7481de5
-Jul-30 13:21:09.270 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Jul-30 13:21:09.270 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Jul-30 13:21:09.346 [main] DEBUG nextflow.Session - Session UUID: b69db197-90f5-4d78-8dba-1ac5e49e10d2
-Jul-30 13:21:09.347 [main] DEBUG nextflow.Session - Run name: gloomy_cuvier
-Jul-30 13:21:09.348 [main] DEBUG nextflow.Session - Executor pool size: 8
-Jul-30 13:21:09.360 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Jul-30 13:21:09.368 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-30 13:21:09.394 [main] DEBUG nextflow.cli.CmdRun - 
+Jul-30 15:45:50.021 [main] DEBUG nextflow.cli.Launcher - $> nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+Jul-30 15:45:50.198 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.6
+Jul-30 15:45:50.224 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/aigul_sharip/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.1,nf-k8s@1.0.0,nf-tower@1.11.4,nf-wave@1.12.1
+Jul-30 15:45:50.248 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-30 15:45:50.249 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-30 15:45:50.253 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jul-30 15:45:50.267 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-30 15:45:50.295 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/nextflow.config
+Jul-30 15:45:50.298 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/nextflow.config
+Jul-30 15:45:50.336 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/aigul_sharip/.nextflow/secrets/store.json
+Jul-30 15:45:50.343 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@c68a5f8] - activable => nextflow.secret.LocalSecretsProvider@c68a5f8
+Jul-30 15:45:50.364 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-30 15:45:50.944 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jul-30 15:45:50.961 [main] DEBUG nextflow.cli.CmdRun - Launching `script7.nf` [lethal_kirch] DSL2 - revision: 8e0bd56d0f
+Jul-30 15:45:50.963 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-30 15:45:50.964 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-30 15:45:51.027 [main] DEBUG nextflow.Session - Session UUID: c9c3aafa-ef82-4fea-9923-931314f757f8
+Jul-30 15:45:51.028 [main] DEBUG nextflow.Session - Run name: lethal_kirch
+Jul-30 15:45:51.028 [main] DEBUG nextflow.Session - Executor pool size: 8
+Jul-30 15:45:51.039 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-30 15:45:51.047 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-30 15:45:51.068 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 25.04.6 build 5954
   Created: 01-07-2025 11:27 UTC (16:27 ALMST)
   System: Linux 6.8.0-60-generic
   Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.15+6-Ubuntu-0ubuntu122.04
   Encoding: UTF-8 (UTF-8)
-  Process: 1132883@EPKZASTW0172 [127.0.1.1]
-  CPUs: 8 - Mem: 31 GB (1.5 GB) - Swap: 2 GB (1.5 GB)
-Jul-30 13:21:09.426 [main] DEBUG nextflow.Session - Work-dir: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work [ecryptfs]
-Jul-30 13:21:09.427 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/bin
-Jul-30 13:21:09.441 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Jul-30 13:21:09.457 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Jul-30 13:21:09.466 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
-Jul-30 13:21:09.503 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Jul-30 13:21:09.517 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
-Jul-30 13:21:09.610 [main] DEBUG nextflow.Session - Session start
-Jul-30 13:21:09.886 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Jul-30 13:21:10.034 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-30 13:21:10.035 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-30 13:21:10.042 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Jul-30 13:21:10.051 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Jul-30 13:21:10.054 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Jul-30 13:21:10.108 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'SPLITLETTERS': maxForks=0; fair=false; array=0
-Jul-30 13:21:10.176 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-30 13:21:10.176 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-30 13:21:10.177 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'CONVERTTOUPPER': maxForks=0; fair=false; array=0
-Jul-30 13:21:10.198 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: SPLITLETTERS, CONVERTTOUPPER
-Jul-30 13:21:10.203 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
-Jul-30 13:21:10.204 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SPLITLETTERS
-Jul-30 13:21:10.205 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CONVERTTOUPPER
-Jul-30 13:21:10.207 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_d6e7b2cffa259555: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/hello.nf
-Jul-30 13:21:10.207 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Jul-30 13:21:10.207 [main] DEBUG nextflow.Session - Session await
-Jul-30 13:21:10.356 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-30 13:21:10.359 [Task submitter] INFO  nextflow.Session - [9d/21ac76] Submitted process > SPLITLETTERS (1)
-Jul-30 13:21:10.385 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: SPLITLETTERS (1); status: COMPLETED; exit: 0; error: -; workDir: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/9d/21ac76d5d753bc579b2267a50bf36e]
-Jul-30 13:21:10.387 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-30 13:21:10.465 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-30 13:21:10.466 [Task submitter] INFO  nextflow.Session - [90/6f3b75] Submitted process > CONVERTTOUPPER (2)
-Jul-30 13:21:10.478 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-30 13:21:10.480 [Task submitter] INFO  nextflow.Session - [3a/c2776b] Submitted process > CONVERTTOUPPER (1)
-Jul-30 13:21:10.499 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: CONVERTTOUPPER (2); status: COMPLETED; exit: 0; error: -; workDir: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/90/6f3b7512b5c5d4cd65b6b4fac171ea]
-Jul-30 13:21:10.524 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: CONVERTTOUPPER (1); status: COMPLETED; exit: 0; error: -; workDir: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/3a/c2776bb20428ee841d6ad8124f4b15]
-Jul-30 13:21:10.528 [main] DEBUG nextflow.Session - Session await > all processes finished
-Jul-30 13:21:10.624 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Jul-30 13:21:10.624 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Jul-30 13:21:10.627 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
-Jul-30 13:21:10.637 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=50ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
-Jul-30 13:21:10.650 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Jul-30 13:21:10.672 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
-Jul-30 13:21:10.672 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 1384271@EPKZASTW0172 [127.0.1.1]
+  CPUs: 8 - Mem: 31 GB (505.2 MB) - Swap: 2 GB (388.3 MB)
+Jul-30 15:45:51.125 [main] DEBUG nextflow.Session - Work-dir: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work [ecryptfs]
+Jul-30 15:45:51.126 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/bin
+Jul-30 15:45:51.139 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-30 15:45:51.153 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-30 15:45:51.162 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jul-30 15:45:51.198 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-30 15:45:51.210 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Jul-30 15:45:51.306 [main] DEBUG nextflow.Session - Session start
+Jul-30 15:45:51.819 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-30 15:45:51.840 [main] INFO  nextflow.Nextflow - R N A S E Q - N F   P I P E L I N E
+===================================
+transcriptome: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/data/ggal/transcriptome.fa
+reads        : data/ggal/*_{1,2}.fq
+outdir       : results
+
+Jul-30 15:45:52.054 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-30 15:45:52.055 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-30 15:45:52.064 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-30 15:45:52.072 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Jul-30 15:45:52.076 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jul-30 15:45:52.113 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'INDEX': maxForks=0; fair=false; array=0
+Jul-30 15:45:52.198 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-30 15:45:52.199 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-30 15:45:52.201 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'QUANTIFICATION': maxForks=0; fair=false; array=0
+Jul-30 15:45:52.210 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-30 15:45:52.210 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-30 15:45:52.211 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'FASTQC': maxForks=0; fair=false; array=0
+Jul-30 15:45:52.237 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-30 15:45:52.237 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-30 15:45:52.238 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'MULTIQC': maxForks=0; fair=false; array=0
+Jul-30 15:45:52.243 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: FASTQC, QUANTIFICATION, MULTIQC, INDEX
+Jul-30 15:45:52.247 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Jul-30 15:45:52.254 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: data/ggal/; pattern: *_{1,2}.fq; options: [checkIfExists:true]
+Jul-30 15:45:52.255 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > INDEX
+Jul-30 15:45:52.256 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QUANTIFICATION
+Jul-30 15:45:52.256 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTQC
+Jul-30 15:45:52.257 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MULTIQC
+Jul-30 15:45:52.258 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_578533ebca0993b6: /home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/script7.nf
+Jul-30 15:45:52.258 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-30 15:45:52.259 [main] DEBUG nextflow.Session - Session await
+Jul-30 15:45:52.491 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [59/f920fb] Cached process > INDEX
+Jul-30 15:45:52.491 [Actor Thread 2] INFO  nextflow.processor.TaskProcessor - [7f/468e23] Cached process > FASTQC (FASTQC on gut)
+Jul-30 15:45:52.491 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [c0/41038c] Cached process > FASTQC (FASTQC on lung)
+Jul-30 15:45:52.491 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [2c/c15f07] Cached process > FASTQC (FASTQC on liver)
+Jul-30 15:45:52.543 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [2d/2ce499] Cached process > QUANTIFICATION (Salmon on liver)
+Jul-30 15:45:52.543 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [3b/e35073] Cached process > QUANTIFICATION (Salmon on lung)
+Jul-30 15:45:52.545 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [39/bdd231] Cached process > QUANTIFICATION (Salmon on gut)
+Jul-30 15:45:52.574 [Actor Thread 10] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-30 15:45:52.588 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [67/fb2d7c] Cached process > MULTIQC
+Jul-30 15:45:52.593 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-30 15:45:52.684 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jul-30 15:45:52.685 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-30 15:45:52.688 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jul-30 15:45:52.690 [main] INFO  nextflow.Nextflow - 
+Done! Open the following report in your browser --> results/multiqc_report.html
+
+Jul-30 15:45:52.863 [main] DEBUG nextflow.mail.Mailer - Sending mail via `javamail`
+Jul-30 15:45:53.612 [main] WARN  nextflow.script.WorkflowMetadata - Failed to deliver notification email -- See the log file for details
+javax.mail.MessagingException: Could not convert socket to TLS
+	at com.sun.mail.smtp.SMTPTransport.startTLS(SMTPTransport.java:1907)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:666)
+	at javax.mail.Service.connect(Service.java:295)
+	at nextflow.mail.JavaMailProvider.send(JavaMailProvider.groovy:39)
+	at nextflow.mail.Mailer.send(Mailer.groovy:403)
+	at nextflow.script.WorkflowNotifier.sendNotification(WorkflowNotifier.groovy:71)
+	at nextflow.script.WorkflowMetadata.safeMailNotification(WorkflowMetadata.groovy:502)
+	at nextflow.script.WorkflowMetadata.invokeOnComplete(WorkflowMetadata.groovy:438)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:645)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:628)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethodSafe(InvokerHelper.java:82)
+	at nextflow.script.WorkflowMetadata$_closure2.doCall(WorkflowMetadata.groovy:287)
+	at nextflow.script.WorkflowMetadata$_closure2.call(WorkflowMetadata.groovy)
+	at groovy.lang.Closure.run(Closure.java:505)
+	at nextflow.Session.shutdown0(Session.groovy:760)
+	at nextflow.Session.destroy(Session.groovy:713)
+	at nextflow.script.ScriptRunner.shutdown(ScriptRunner.groovy:263)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:147)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:379)
+	at nextflow.cli.Launcher.run(Launcher.groovy:513)
+	at nextflow.cli.Launcher.main(Launcher.groovy:673)
+Caused by: javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at java.base/sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:172)
+	at java.base/sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at java.base/sun.security.ssl.TransportContext.kickstart(TransportContext.java:252)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:448)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at com.sun.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:549)
+	at com.sun.mail.util.SocketFetcher.startTLS(SocketFetcher.java:486)
+	at com.sun.mail.smtp.SMTPTransport.startTLS(SMTPTransport.java:1902)
+	... 29 common frames omitted
+Jul-30 15:45:53.617 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=8; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=20.8s;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jul-30 15:45:53.759 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-30 15:45:53.790 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jul-30 15:45:53.790 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

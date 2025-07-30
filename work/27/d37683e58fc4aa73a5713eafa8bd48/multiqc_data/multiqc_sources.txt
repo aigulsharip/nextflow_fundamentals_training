@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	gut_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/27/d37683e58fc4aa73a5713eafa8bd48/fastqc_gut_logs/gut_1_fastqc.zip
+FastQC	all_sections	gut_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/27/d37683e58fc4aa73a5713eafa8bd48/fastqc_gut_logs/gut_2_fastqc.zip

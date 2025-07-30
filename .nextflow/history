@@ -53,3 +53,36 @@
 2025-07-30 13:44:08	1.5s	sleepy_stonebraker	ERR	a1296adfa15ac680ceb7c20d5ae02933	4013128c-ef59-4be9-97b0-6308c2226119	nextflow run script2.nf
 2025-07-30 13:44:51	1.9s	goofy_archimedes	ERR	a1296adfa15ac680ceb7c20d5ae02933	01e76763-bd14-425d-97cb-31bfbe48752a	nextflow run script2.nf --with-docker
 2025-07-30 13:53:48	11m 49s	crazy_colden	ERR	a1296adfa15ac680ceb7c20d5ae02933	524628ba-ebcd-4c31-af52-2d151db52c3f	nextflow run script2.nf -with-docker
+2025-07-30 14:11:15	759ms	big_lamport	OK	479ec49b49b11caf31868fd305f1be42	485df322-ebfd-4d3a-8062-76eb29c78516	nextflow run script3.nf --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 14:11:26	1.1s	festering_minsky	OK	479ec49b49b11caf31868fd305f1be42	86315396-6886-4425-9648-598b6d4ae649	nextflow run script3.nf
+2025-07-30 14:26:59	1.2s	condescending_faggin	OK	8922c3c1f1eae5bea57a338082902c05	52fe7bb2-216e-49b9-8ef2-bd9a8a062e83	nextflow run script3.nf
+2025-07-30 14:27:54	1.4s	ridiculous_bhabha	OK	b91a006bcca8ecf8f39a248191319ef6	8b0b4478-8538-46a7-8c0e-8258e8ffd078	nextflow run script3.nf
+2025-07-30 14:31:08	1.2s	irreverent_avogadro	OK	b91a006bcca8ecf8f39a248191319ef6	c1fa8ff2-cc72-44e1-9f65-f5ffa8a239b4	nextflow run script3.nf
+2025-07-30 14:31:41	1.6s	voluminous_boltzmann	OK	40023765e0536ff2afcaf6501854baa8	75f7b4f4-2a98-4215-a2d0-7eb1cd31a8ac	nextflow run script3.nf
+2025-07-30 14:32:08	998ms	modest_curry	OK	40023765e0536ff2afcaf6501854baa8	3386a9dc-4cb1-40a0-9070-d845ce31e581	nextflow run script3.nf
+2025-07-30 14:32:45	948ms	modest_rosalind	OK	40023765e0536ff2afcaf6501854baa8	df418ebc-fd66-4c7b-8f73-5420ed40c401	nextflow run script3.nf
+2025-07-30 14:32:56	725ms	marvelous_faraday	ERR	40023765e0536ff2afcaf6501854baa8	229c43e6-0180-4da8-8bac-442b7e2ad90d	nextflow run script3.nf
+2025-07-30 14:33:15	1.2s	jolly_brown	OK	ed48f1285fbc69d627cd03c06ef1f9cf	e4af5521-0a96-40ef-9644-ab27195c1534	nextflow run script3.nf
+2025-07-30 14:33:43	1.6s	sad_easley	OK	ed48f1285fbc69d627cd03c06ef1f9cf	338c8146-14d8-418d-a93f-34f21442a9b8	nextflow run script3.nf
+2025-07-30 14:33:53	927ms	shrivelled_snyder	ERR	40023765e0536ff2afcaf6501854baa8	b1797660-d06d-4de8-a80c-03d6c379190b	nextflow run script3.nf
+2025-07-30 14:34:04	1.3s	awesome_babbage	OK	40023765e0536ff2afcaf6501854baa8	8685caed-28b5-46c4-9e1f-8c5ff66c4c8c	nextflow run script3.nf
+2025-07-30 14:39:48	2m 2s	mighty_torvalds	OK	385b633124f3a95b0abd59af69f47e94	8685caed-28b5-46c4-9e1f-8c5ff66c4c8c	nextflow run script4.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:12:11	2.1s	pedantic_meitner	OK	385b633124f3a95b0abd59af69f47e94	8685caed-28b5-46c4-9e1f-8c5ff66c4c8c	nextflow run script4.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:19:14	2.8s	stupefied_panini	OK	7e3531b2131a5cb3bf560c8a94c4ec9d	a64784b4-c21b-4f1b-8174-1a1dfe600b62	nextflow run script2.nf
+2025-07-30 15:25:56	3s	crazy_morse	OK	385b633124f3a95b0abd59af69f47e94	52c48f8f-bb5b-4c01-b7ae-8d88b9a9cf8c	nextflow run script4.nf
+2025-07-30 15:26:11	2.8s	voluminous_murdock	OK	ee2dc7fa2b6e7a2d564d3abd84607587	f3c9eb92-3226-4ef0-94b2-41258026515a	nextflow run script4.nf
+2025-07-30 15:27:36	3.7s	determined_noether	OK	16766ee4569bbe91990162c18f121a38	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script4.nf
+2025-07-30 15:28:27	5.7s	prickly_tesla	OK	a4ac46840dfb974f5bf1cd7409b74841	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script5.nf -resume
+2025-07-30 15:29:41	2.4s	adoring_avogadro	OK	7c8630351c7d90f3eb5122a151d9ad1a	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script5.nf -resume
+2025-07-30 15:30:17	10.5s	lonely_golick	OK	2d916554d434ce7549c8fb6d241d9929	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script6.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:33:48	6.6s	pedantic_swanson	OK	39b0717c141d60afa64bdda8545e2803	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script6.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:35:27	2.2s	pedantic_lavoisier	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:37:12	3.6s	desperate_booth	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:40:16	3s	stupefied_watson	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:45:51	2.8s	lethal_kirch	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:46:23	2.9s	condescending_celsius	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:46:49	4.2s	admiring_spence	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:50:27	2.9s	fabulous_jones	OK	8e0bd56d0ffa1ebc76b24c0b570152a8	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' -N aigul_sharip@epam.com
+2025-07-30 15:54:41	2.9s	elated_salas	ERR	cff73bb96c8e6e8754ea8a9c3a0fdac6	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:55:15	10.9s	pensive_newton	OK	377b8a8316c614866719d715ca31c183	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq'
+2025-07-30 15:57:16	9.6s	intergalactic_banach	OK	377b8a8316c614866719d715ca31c183	5869ac18-765d-40f3-b736-e88d5f0f46ba	nextflow run script7.nf -with-docker -with-report -with-trace -with-timeline -with-dag dag.png
