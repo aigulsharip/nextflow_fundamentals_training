@@ -86,3 +86,19 @@
 2025-07-30 15:54:41	2.9s	elated_salas	ERR	cff73bb96c8e6e8754ea8a9c3a0fdac6	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq'
 2025-07-30 15:55:15	10.9s	pensive_newton	OK	377b8a8316c614866719d715ca31c183	c9c3aafa-ef82-4fea-9923-931314f757f8	nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq'
 2025-07-30 15:57:16	9.6s	intergalactic_banach	OK	377b8a8316c614866719d715ca31c183	5869ac18-765d-40f3-b736-e88d5f0f46ba	nextflow run script7.nf -with-docker -with-report -with-trace -with-timeline -with-dag dag.png
+2025-07-31 11:54:08	4.1s	cheeky_jang	OK	065649cb29c8905a00e8e2440fee823a	aba19101-d5cd-41ac-aa64-3d994c1afaed	nextflow run script2.nf
+2025-07-31 11:54:26	2.8s	tiny_sinoussi	OK	fa2f153bebe2562777af6df9bea99d89	bba90484-0385-4041-98a4-58bfc971ad64	nextflow run script2.nf
+2025-07-31 11:59:02	2.8s	irreverent_jennings	OK	7705f65299e0fa94b5af18e8041080d6	3db28246-6f49-439f-863d-a731e58afb50	nextflow run script2.nf
+2025-07-31 12:18:25	2.8s	desperate_ardinghelli	OK	7705f65299e0fa94b5af18e8041080d6	113b1ce3-e0b5-4c76-abb3-e6d4140dcec9	nextflow run script2.nf
+2025-07-31 12:20:41	3.2s	determined_mestorf	OK	91b7481de5245909fad525742c2f128d	f74b335d-0367-44f8-958c-16dc01c57f4c	nextflow run hello.nf
+2025-07-31 12:21:01	2.2s	nauseous_gates	OK	9bf192af0cfc0a8c1d41eb631119e5d9	edfe98aa-18de-433c-8010-3fdb98d4d40d	nextflow run hello.nf
+2025-07-31 12:22:20	2.7s	furious_hodgkin	OK	167bba743ef5269929e8620782de4d0d	6f6251fe-9f9a-4691-ad8b-ba0c2f2542a6	nextflow run hello.nf
+2025-07-31 12:23:18	2.6s	exotic_tuckerman	OK	2810e44f81428c3b51eb22d954b36052	398ab8ea-c635-43a0-aa65-69ea73bd5ee7	nextflow run hello.nf
+2025-07-31 12:23:34	3.2s	determined_boyd	OK	a95d87fb846659831218e4675a50c9cf	18a9093b-7d89-4aa7-b2ab-91ad7ed7f20d	nextflow run hello.nf
+2025-07-31 12:24:58	2.3s	sharp_volta	OK	6876614af114b0e8c21c0e3c48636076	519620d6-b053-4d67-8021-f9cc32c4a962	nextflow run hello.nf
+2025-07-31 12:56:59	11.2s	sad_koch	ERR	b732e7c42eac18ce8ce329c954c07daa	652595b1-c0e5-4136-a96f-d4ab0cd98c82	nextflow run script7.nf
+2025-07-31 12:57:21	4.9s	nasty_murdock	ERR	b732e7c42eac18ce8ce329c954c07daa	66ac3c51-ed0f-4ead-b84b-e3a7c8478b5a	nextflow run script7.nf
+2025-07-31 12:57:41	10.4s	small_wegener	OK	b732e7c42eac18ce8ce329c954c07daa	4f522e5a-06fd-460e-a2e6-348c406714ca	nextflow run script7.nf
+2025-08-04 11:05:06	10.4s	nauseous_wiles	OK	86165b8c81d43a1f57363964431395152e353e56	41624933-6918-4cf0-8c89-bd118b9731df	nextflow run nextflow-io/rnaseq-nf -with-docker
+2025-08-04 11:40:04	-	scruffy_engelbart	-	b732e7c42eac18ce8ce329c954c07daa	86acf3f4-89b9-4695-aa33-dac073d00395	nextflow run script7.nf -with-singularity nextflow/rnaseq-nf
+2025-08-04 11:41:01	2m 28s	focused_wilson	OK	b732e7c42eac18ce8ce329c954c07daa	ca5081c5-ab9b-4385-bc04-00c7f312bf98	nextflow run script7.nf -with-singularity nextflow/rnaseq-nf

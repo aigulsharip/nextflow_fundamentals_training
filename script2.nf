@@ -24,7 +24,7 @@ log.info """\
 process INDEX {
     cpus 2
     input:
-    path transcript ome
+    path transcriptome
     
 
     output:
@@ -39,4 +39,5 @@ process INDEX {
 workflow {
     index_ch = INDEX(params.transcriptome_file)
     index_ch.view()
+    //?index_ch.view{}
 }

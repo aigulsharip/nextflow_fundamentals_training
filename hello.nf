@@ -25,7 +25,7 @@ process CONVERTTOUPPER {
 
     script:
     """
-    cat $y | tr '[a-z]' '[A-Z]'
+    Scat $y | tr '[a-z]' '[A-Z]'
     
     """
 }

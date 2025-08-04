@@ -1,2 +1,0 @@
-Module	Section	Sample Name	Source
-Salmon	all_sections	gut	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/15/5626cf4a36dcaf4b28d2614222a218/gut/libParams/flenDist.txt

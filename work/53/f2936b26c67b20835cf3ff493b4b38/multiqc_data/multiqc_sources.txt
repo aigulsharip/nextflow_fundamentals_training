@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	liver_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/53/f2936b26c67b20835cf3ff493b4b38/fastqc_liver_logs/liver_2_fastqc.zip
-FastQC	all_sections	liver_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/53/f2936b26c67b20835cf3ff493b4b38/fastqc_liver_logs/liver_1_fastqc.zip

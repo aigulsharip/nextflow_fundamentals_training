@@ -1,2 +1,0 @@
-Module	Section	Sample Name	Source
-Salmon	all_sections	liver	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/18/f7158129f7f3f8d4a0c6441a8329b7/liver/libParams/flenDist.txt

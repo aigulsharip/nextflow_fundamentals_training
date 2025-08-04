@@ -52,6 +52,7 @@ process QUANTIFICATION {
 
 process FASTQC {
     tag "FASTQC on $sample_id"
+     publishDir params.outdir, mode:'copy'
 
     input:
     tuple val(sample_id), path(reads)
@@ -89,7 +90,7 @@ workflow {
     index_ch = INDEX(params.transcriptome_file)
     quant_ch = QUANTIFICATION(index_ch, read_pairs_ch)
     fastqc_ch = FASTQC(read_pairs_ch)
-    MULTIQC(quant_ch.mix(fastqc_ch).collect())
+    MULTIQC(quant_ch.mix(fastqc_ch).collect()) 
 }
 
 workflow.onComplete {

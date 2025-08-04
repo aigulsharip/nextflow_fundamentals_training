@@ -1,2 +1,0 @@
-Sample	Salmon_mqc-generalstats-percent_mapped	Salmon_mqc-generalstats-num_mapped
-lung	70.0715015322	2058

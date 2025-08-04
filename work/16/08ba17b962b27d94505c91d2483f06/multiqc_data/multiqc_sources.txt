@@ -1,4 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	gut_1	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/16/08ba17b962b27d94505c91d2483f06/fastqc_gut_logs/gut_1_fastqc.zip
-FastQC	all_sections	gut_2	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/16/08ba17b962b27d94505c91d2483f06/fastqc_gut_logs/gut_2_fastqc.zip
-Salmon	all_sections	gut	/home/aigul_sharip/EPAM/Bioinformatics/Nextflow_training/training/nf-training/work/16/08ba17b962b27d94505c91d2483f06/gut/libParams/flenDist.txt
