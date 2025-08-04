@@ -1,12 +1,13 @@
-FROM debian:bullseye-slim
+FROM mambaorg/micromamba:0.25.1
 
 LABEL image.author.name "Your Name Here"
 LABEL image.author.email "your@email.here"
 
-RUN apt-get update && apt-get install -y curl cowsay
+COPY --chown=$MAMBA_USER:$MAMBA_USER env.yml /tmp/env.yml
 
-ENV PATH=$PATH:/usr/games/
+RUN micromamba create -n nf-tutorial
 
-RUN curl -sSL https://github.com/COMBINE-lab/salmon/releases/download/v1.5.2/salmon-1.5.2_linux_x86_64.tar.gz | tar xz \
-&& mv /salmon-*/bin/* /usr/bin/ \
-&& mv /salmon-*/lib/* /usr/lib/
+RUN micromamba install -y -n nf-tutorial -f /tmp/env.yml && \
+micromamba clean --all --yes
+
+ENV PATH /opt/conda/envs/nf-tutorial/bin:$PATH

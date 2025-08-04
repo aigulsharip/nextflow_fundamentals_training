@@ -102,3 +102,7 @@
 2025-08-04 11:05:06	10.4s	nauseous_wiles	OK	86165b8c81d43a1f57363964431395152e353e56	41624933-6918-4cf0-8c89-bd118b9731df	nextflow run nextflow-io/rnaseq-nf -with-docker
 2025-08-04 11:40:04	-	scruffy_engelbart	-	b732e7c42eac18ce8ce329c954c07daa	86acf3f4-89b9-4695-aa33-dac073d00395	nextflow run script7.nf -with-singularity nextflow/rnaseq-nf
 2025-08-04 11:41:01	2m 28s	focused_wilson	OK	b732e7c42eac18ce8ce329c954c07daa	ca5081c5-ab9b-4385-bc04-00c7f312bf98	nextflow run script7.nf -with-singularity nextflow/rnaseq-nf
+2025-08-04 12:24:51	23.4s	drunk_church	OK	7705f65299e0fa94b5af18e8041080d6	8307612a-d687-4caa-bdfa-6048afe45263	nextflow run script2.nf -with-docker 'quay.io/biocontainers/salmon:1.7.0--h84f40af_0'
+2025-08-04 12:27:18	2.2s	sad_wright	ERR	e519a622f74cef0b1a6f9719f9236dd6	9d9ac22e-65f1-4202-86c2-f5f3f91e223a	nextflow run script5.nf
+2025-08-04 12:27:33	2.1s	insane_allen	ERR	e519a622f74cef0b1a6f9719f9236dd6	22fd3df0-9444-414c-b7ae-79fcfa8eec29	nextflow run script5.nf
+2025-08-04 12:29:24	5.8s	sharp_curry	OK	23bf72c08dc21e27f8535ed76c0c0ec1	74348e64-b5a2-4652-9c71-9ca63793111f	nextflow run script5.nf
